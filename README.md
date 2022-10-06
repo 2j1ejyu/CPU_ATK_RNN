@@ -17,3 +17,11 @@ the datas should be in the form of csv, and each of the file should consist of f
 ```
 IPC || Instructions || Cycles || Started RTM Exec || Aborted RTM Exec || TX Write Abort
 ```
+
+## Inference Code
+
+A script for running the inference code for new incoming data
+
+```bash
+python inference.py --ckpt [ckpt_path] --data_path [data_path] --gpu [gpu_num]
+```
